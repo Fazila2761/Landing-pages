@@ -1,0 +1,672 @@
+@font-face {
+    font-family:all;
+    src: url(fonts/Gilroy-Regular.ttf);
+}
+
+
+
+
+
+*{
+    margin:0%;
+    padding:0%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1240px;
+    height:96%;
+}
+
+  
+.navber{
+    padding-left: 6%;
+   text-align: center;
+   margin-top: -3%;
+   
+    
+}
+.navber a{
+ text-decoration: none;
+ color:black;
+ letter-spacing: 1.5px;
+ padding:10px  20px ;
+ cursor: pointer;
+}
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+
+
+.dropdown-content a{
+ display:block;
+ 
+}
+.dropdown-content{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color:#91D497;
+    text-align: left;
+    min-width:100px;
+    display: none;
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: aliceblue;
+}
+/* first hover end/ */
+.dropdown-container2{
+    display: inline;
+    position: relative;
+}
+
+
+.dropdown-content2 a{
+ display:block;
+ 
+}
+.dropdown-content2{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color:#91D497;
+    text-align: left;
+    min-width:100px;
+    display: none;
+}
+.dropdown-container2:hover .dropdown-content2{
+    display: block;
+}
+.dropdown-content2 a:hover{
+    background-color: aliceblue;
+}
+/* second hover end/ */
+.dropdown-container3{
+    display: inline;
+    position: relative;
+}
+
+
+.dropdown-content3 a{
+ display:block;
+ 
+}
+.dropdown-content3{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color:#91D497;
+    text-align: left;
+    min-width:100px;
+    display: none;
+}
+.dropdown-container3:hover .dropdown-content3{
+    display: block;
+}
+.dropdown-content3 a:hover{
+    background-color: aliceblue;
+}
+/* third hover end/ */
+.dropdown-container4{
+    display: inline;
+    position: relative;
+}
+
+
+.dropdown-content4 a{
+ display:block;
+ 
+}
+.dropdown-content4{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color:#91D497;
+    text-align: left;
+    min-width:100px;
+    display: none;
+}
+.dropdown-container4:hover .dropdown-content4{
+    display: block;
+}
+.dropdown-content4 a:hover{
+    background-color: aliceblue;
+}
+.button1{
+    height:27px;
+    width:120px;  
+    background-color: white;
+    border-radius: 4px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+.button1 a{
+    text-decoration: none;
+    color: black;
+}
+.button1:hover{
+    transform:scale(1.2);
+}
+.button-position{
+    margin-left:83%;
+    margin-top:-1.5%;
+}
+/* banner area start/ */
+.banner-area{
+    background-image: url(image/image.png);
+    height:616px;
+    width: 1440px;
+    margin-top: 3%;
+    background-size:cover;
+    margin-left: 3%;
+    
+}
+.empower{
+    text-shadow: 0 0 2px black;
+    letter-spacing: 1.5px;
+    color:white;
+    font-family: all;
+}
+.schedule{
+    width: 310px;
+    height: 58px;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    border: none;
+}
+.banner-text{
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+.schedule{
+    margin-top: 10%;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-family: all;
+
+}
+.schedule:hover{
+    transform:scale(1.2);
+    
+}
+/* banner area end/ */
+.girl-area-1{
+    margin-top: 5%;
+    margin-left: 20%;
+   display: flex;
+
+    
+
+ }
+ .girl1{
+    width: 550px;
+    height: 700px;
+    margin-left: -8%;
+ 
+    
+    
+ }
+
+.girl-text-1{
+margin-left:2%;
+font-family: all;
+   
+}
+.girl-text-1 h2{
+    margin-top: 3%;
+    font-family: all;
+}
+.girl-text-1  p{
+    margin-top: 3%;
+    margin-right: 40%;
+}
+.girl-text-1 ul li{
+    list-style:none;
+    margin-top: 3%;
+
+}
+.button3{
+    width:400px;
+    height:78px;
+    background-color:#91D497;
+    color:white;
+    margin-top:3%;
+    letter-spacing: 1px;
+    font-size: large;
+    gap:10px;
+    border-radius: 10px;
+    border:none;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-family: all;
+   
+}
+ .button3:hover{
+    transform: scale(1.2);
+ }
+ /* girl area-1 end/ */
+ .input-div{
+    width: 1460px;
+    height: 900px;
+    margin-top: 6%;
+    margin-left:2% ;
+    background: #DFE8E6;
+ }
+    
+
+.want{
+    letter-spacing: 0.055em;
+    padding-top: 6%;
+    padding-left: 13%;
+    font-family: all;
+
+}
+.schedule2{
+   margin-top: 3%;
+    padding-left:8%;
+    font-family: all;
+
+}
+.input-text{
+    padding-left:8%;
+    padding-top:3%;
+    
+    
+}
+.name{
+    width: 550px;
+    height: 60px;
+    border-radius: 9px;
+    background-color:#a6d2c8;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+
+}
+.email{
+    width: 550px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background-color:#a6d2c8;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+
+}
+.phone{
+    width: 550px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background-color:#a6d2c8;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+}
+.facebook{
+    width: 550px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background-color:#a6d2c8;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+}
+.date{
+    width: 550px;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 9px;
+    background-color:#a6d2c8;
+    padding-left:10px;
+    border:none;
+    font-size: large;
+}
+.photo{
+    width: 534px;
+    height: 662px;
+    margin-top:-40%;
+    margin-left:55%;
+
+}
+.choose-button{
+    width: 342px;
+    height: 73px;
+    margin-top: 5%;
+    margin-left: 5.5%;
+    border: none;
+    border-radius: 9px;
+    background-color: #68BCA7;
+    font-family: all;
+    color:#FFFFFF;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-size: large;
+
+
+}
+
+.choose-button:hover{
+    transform: scale(1.2);
+}
+/* input div end/ */
+
+
+/* services start/ */
+.service-text{
+    width: 1460px;
+    height: 900px;
+    margin-left:2% ;
+  
+}
+.service-text{
+    margin-top: 5%;
+    text-align: center;
+    font-family: all;
+    padding-left: 8%;
+}
+.service-h1{
+    letter-spacing:3px;
+}
+.service-p{
+ margin-top: 3%;
+}
+.service-pic{
+    display: flex;
+    padding-left:14%;
+    margin-top: -45%;
+    
+
+}
+.service-text2{
+    display: flex;
+    margin-top: 4%;
+    margin-left:21% ;
+    font-family: all;
+    letter-spacing: 1px;
+    
+}
+.img-2{
+ padding-left: 5%;
+}
+.img-3{
+    padding-left: 5%;
+}
+.cog{
+   padding-left: 16%;
+   font-family: all;
+   letter-spacing: 1px;
+}
+.psy{
+    padding-left: 15%;
+    font-family: all;
+    letter-spacing: 1px;
+}
+.service-button{
+    width:400px;
+    height:78px;
+    background-color:white;
+    color:black;
+    margin-top:8%;
+    margin-left: 38%;
+    letter-spacing: 1px;
+    font-size: large;
+    gap:10px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-family: all;
+    
+}
+.service-button:hover{
+    transform: scale(1.2);
+}
+/* services end/ */
+.a-boy{
+    width: 736px;
+    height: 734px;
+    margin-left:-11%;
+    
+    
+}
+.text-philo{
+ margin-left: 2%;
+
+ 
+}
+.first-pic{
+    display: flex;
+ 
+}
+.our-philo{
+  margin-top: 8%;
+  background-color: #DFE8E6;
+  width:1440px;
+  margin-left: 4%;
+}
+.philosophy{
+    margin-top: 18%;
+    text-align: center;
+    font-family: all;
+    letter-spacing: 2px;
+}
+.philo-p{
+    margin-top: 10%;
+    line-height: 25.5px;
+    font-family: all;
+    text-align: center;
+}
+.second-philo{
+    background-color: white;
+    display: flex;
+    width:1440px;
+    margin-left: 4%;
+}
+
+.second-philo-text{
+ margin-top: 10%;
+ font-family: all;
+line-height: 25.02px;
+ margin-right: 8%;
+ 
+ 
+
+}
+.uncle{
+    width: 740px;
+    height: 734px;
+   
+}
+.find2-button{
+    width:400px;
+    height:78px;
+    background-color:white;
+    color:black;
+    margin-top:15%;
+    margin-left:12%;
+    letter-spacing: 1px;
+    font-size: large;
+    gap:10px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-family: all;
+    
+}
+.find2-button:hover{
+    transform: scale(1.2);
+}
+/* our philossophy end/ */
+.therapy{
+    width: 1460px;
+     height: 300px;
+     background: #DFDFDF;
+     margin-top: 5%;
+     margin-left: 2%;
+}
+.therapy-text{
+   text-align: center;
+   padding-top: 10%;
+   font-size: 50px;
+   font-family: all;
+   letter-spacing: 5px;
+}
+/* the therapy mind end/ */
+     
+
+/* last menubar start/*/
+.header-area2{
+    width: 1460px;
+    height:150px;
+    background-color: #DFE8E6;
+    margin-left: 2%;
+}
+
+.navber2{
+    padding-left: 6%;
+   text-align: center;
+   margin-top: -3%;
+   
+    
+}
+.navber2 a{
+ text-decoration: none;
+ color:black;
+ letter-spacing: 1.5px;
+ padding:10px  20px ;
+ cursor: pointer;
+}
+.dropdown-container2{
+    display: inline;
+    position: relative;
+}
+
+
+.dropdown-content2 a{
+ display:block;
+ 
+}
+.dropdown-content2{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color:#91D497;
+    text-align: left;
+    min-width:100px;
+    display: none;
+}
+.dropdown-container2:hover .dropdown-content2{
+    display: block;
+}
+.dropdown-content2 a:hover{
+    background-color: aliceblue;
+}
+/* first hover end/ */
+.dropdown-container2-2{
+    display: inline;
+    position: relative;
+}
+
+
+.dropdown-content2-2 a{
+ display:block;
+ 
+}
+.dropdown-content2-2{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color:#91D497;
+    text-align: left;
+    min-width:100px;
+    display: none;
+}
+.dropdown-container2-2:hover .dropdown-content2-2{
+    display: block;
+}
+.dropdown-content2-2 a:hover{
+    background-color: aliceblue;
+}
+/* second hover end/ */
+.dropdown-container2-3{
+    display: inline;
+    position: relative;
+}
+
+
+.dropdown-content2-3 a{
+ display:block;
+ 
+}
+.dropdown-content2-3{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color:#91D497;
+    text-align: left;
+    min-width:100px;
+    display: none;
+}
+.dropdown-container2-3:hover .dropdown-content2-3{
+    display: block;
+}
+.dropdown-content2-3 a:hover{
+    background-color: aliceblue;
+}
+/* third hover end/ */
+.dropdown-container2-4{
+    display: inline;
+    position: relative;
+}
+
+
+.dropdown-content2-4 a{
+ display:block;
+ 
+}
+.dropdown-content2-4{
+    position: absolute;
+    top:30px;
+    right:0px;
+    background-color:#91D497;
+    text-align: left;
+    min-width:100px;
+    display: none;
+}
+.dropdown-container2-4:hover .dropdown-content2-4{
+    display: block;
+}
+.dropdown-content2-4 a:hover{
+    background-color: aliceblue;
+}
+.button2-1{
+    height:27px;
+    width:120px;  
+    background-color: white;
+    border-radius: 4px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+.button2-1 a{
+    text-decoration: none;
+    color: black;
+}
+.button2-1:hover{
+    transform:scale(1.2);
+}
+.button-position2{
+    margin-left:83%;
+    margin-top:-1.5%;
+}
+.logo-down{
+    margin-top: 4%;
+}
